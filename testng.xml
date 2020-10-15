@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+
+<suite name="Test suite">
+    <test name="Regression">
+        <classes>
+            <!-- class to include into test suite -->
+            <class name="com.weborders.tests.Scenario_CreateOrder"/>
+            <class name="com.weborders.tests.LoginTests"/>
+        </classes>
+    </test>
+</suite>
